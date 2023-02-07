@@ -14,6 +14,7 @@
 		831A81612992BCEB0036A048 /* GeometryShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A81602992BCEB0036A048 /* GeometryShapesTests.swift */; };
 		831A816B2992BCEB0036A048 /* GeometryShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */; };
 		831A816D2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */; };
+		83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A822992BE3200241B11 /* IslamicStar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		831A81662992BCEB0036A048 /* GeometryShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITests.swift; sourceTree = "<group>"; };
 		831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83F53A822992BE3200241B11 /* IslamicStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicStar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				831A81512992BCEA0036A048 /* ContentView.swift */,
 				831A81532992BCEB0036A048 /* Assets.xcassets */,
 				831A81552992BCEB0036A048 /* Preview Content */,
+				83F53A822992BE3200241B11 /* IslamicStar.swift */,
 			);
 			path = GeometryShapes;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A81522992BCEA0036A048 /* ContentView.swift in Sources */,
+				83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */,
 				831A81502992BCEA0036A048 /* GeometryShapesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

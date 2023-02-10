@@ -27,7 +27,7 @@ struct CoordinatesGrid: View {
             .stroke(axesColor, lineWidth: 2)
 
 
-            ForEach(0...100, id: \.self) { index in
+            ForEach(0...38, id: \.self) { index in
 
                 let shift = CGFloat(index)
                 // vertical

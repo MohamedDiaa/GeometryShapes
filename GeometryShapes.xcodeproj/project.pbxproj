@@ -15,6 +15,10 @@
 		831A816B2992BCEB0036A048 /* GeometryShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */; };
 		831A816D2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */; };
 		833D7F9B2996AD7300F02A04 /* CoordinatesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */; };
+		833D7F9D2996B12E00F02A04 /* SineWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D7F9C2996B12E00F02A04 /* SineWave.swift */; };
+		833D7FA02996B16E00F02A04 /* ComplexModule in Frameworks */ = {isa = PBXBuildFile; productRef = 833D7F9F2996B16E00F02A04 /* ComplexModule */; };
+		833D7FA22996B16E00F02A04 /* Numerics in Frameworks */ = {isa = PBXBuildFile; productRef = 833D7FA12996B16E00F02A04 /* Numerics */; };
+		833D7FA42996B16E00F02A04 /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 833D7FA32996B16E00F02A04 /* RealModule */; };
 		83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF0DEE299403A700F595B1 /* Sulphur.swift */; };
 		83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A822992BE3200241B11 /* IslamicStar.swift */; };
 		83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A852992C10600241B11 /* InfinitySymbol.swift */; };
@@ -49,6 +53,7 @@
 		831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITests.swift; sourceTree = "<group>"; };
 		831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesGrid.swift; sourceTree = "<group>"; };
+		833D7F9C2996B12E00F02A04 /* SineWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWave.swift; sourceTree = "<group>"; };
 		83AF0DEE299403A700F595B1 /* Sulphur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sulphur.swift; sourceTree = "<group>"; };
 		83F53A822992BE3200241B11 /* IslamicStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicStar.swift; sourceTree = "<group>"; };
 		83F53A852992C10600241B11 /* InfinitySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitySymbol.swift; sourceTree = "<group>"; };
@@ -59,6 +64,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				833D7FA22996B16E00F02A04 /* Numerics in Frameworks */,
+				833D7FA02996B16E00F02A04 /* ComplexModule in Frameworks */,
+				833D7FA42996B16E00F02A04 /* RealModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */,
+				833D7F9C2996B12E00F02A04 /* SineWave.swift */,
 			);
 			path = Trignometry;
 			sourceTree = "<group>";
@@ -171,6 +180,11 @@
 			dependencies = (
 			);
 			name = GeometryShapes;
+			packageProductDependencies = (
+				833D7F9F2996B16E00F02A04 /* ComplexModule */,
+				833D7FA12996B16E00F02A04 /* Numerics */,
+				833D7FA32996B16E00F02A04 /* RealModule */,
+			);
 			productName = GeometryShapes;
 			productReference = 831A814C2992BCEA0036A048 /* GeometryShapes.app */;
 			productType = "com.apple.product-type.application";
@@ -243,6 +257,9 @@
 				Base,
 			);
 			mainGroup = 831A81432992BCEA0036A048;
+			packageReferences = (
+				833D7F9E2996B16E00F02A04 /* XCRemoteSwiftPackageReference "swift-numerics" */,
+			);
 			productRefGroup = 831A814D2992BCEA0036A048 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -286,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				831A81522992BCEA0036A048 /* ContentView.swift in Sources */,
+				833D7F9D2996B12E00F02A04 /* SineWave.swift in Sources */,
 				83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */,
 				831A81502992BCEA0036A048 /* GeometryShapesApp.swift in Sources */,
 				83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */,
@@ -615,6 +633,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		833D7F9E2996B16E00F02A04 /* XCRemoteSwiftPackageReference "swift-numerics" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-numerics.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		833D7F9F2996B16E00F02A04 /* ComplexModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 833D7F9E2996B16E00F02A04 /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = ComplexModule;
+		};
+		833D7FA12996B16E00F02A04 /* Numerics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 833D7F9E2996B16E00F02A04 /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = Numerics;
+		};
+		833D7FA32996B16E00F02A04 /* RealModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 833D7F9E2996B16E00F02A04 /* XCRemoteSwiftPackageReference "swift-numerics" */;
+			productName = RealModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 831A81442992BCEA0036A048 /* Project object */;
 }

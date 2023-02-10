@@ -14,6 +14,7 @@
 		831A81612992BCEB0036A048 /* GeometryShapesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A81602992BCEB0036A048 /* GeometryShapesTests.swift */; };
 		831A816B2992BCEB0036A048 /* GeometryShapesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */; };
 		831A816D2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */; };
+		833D7F9B2996AD7300F02A04 /* CoordinatesGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */; };
 		83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF0DEE299403A700F595B1 /* Sulphur.swift */; };
 		83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A822992BE3200241B11 /* IslamicStar.swift */; };
 		83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A852992C10600241B11 /* InfinitySymbol.swift */; };
@@ -47,6 +48,7 @@
 		831A81662992BCEB0036A048 /* GeometryShapesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeometryShapesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		831A816A2992BCEB0036A048 /* GeometryShapesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITests.swift; sourceTree = "<group>"; };
 		831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryShapesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatesGrid.swift; sourceTree = "<group>"; };
 		83AF0DEE299403A700F595B1 /* Sulphur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sulphur.swift; sourceTree = "<group>"; };
 		83F53A822992BE3200241B11 /* IslamicStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicStar.swift; sourceTree = "<group>"; };
 		83F53A852992C10600241B11 /* InfinitySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitySymbol.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 		831A814E2992BCEA0036A048 /* GeometryShapes */ = {
 			isa = PBXGroup;
 			children = (
+				833D7F992996AD2800F02A04 /* Trignometry */,
 				83AF0DED2994038E00F595B1 /* Alchemy */,
 				831A814F2992BCEA0036A048 /* GeometryShapesApp.swift */,
 				831A81512992BCEA0036A048 /* ContentView.swift */,
@@ -134,6 +137,14 @@
 				831A816C2992BCEB0036A048 /* GeometryShapesUITestsLaunchTests.swift */,
 			);
 			path = GeometryShapesUITests;
+			sourceTree = "<group>";
+		};
+		833D7F992996AD2800F02A04 /* Trignometry */ = {
+			isa = PBXGroup;
+			children = (
+				833D7F9A2996AD7300F02A04 /* CoordinatesGrid.swift */,
+			);
+			path = Trignometry;
 			sourceTree = "<group>";
 		};
 		83AF0DED2994038E00F595B1 /* Alchemy */ = {
@@ -279,6 +290,7 @@
 				831A81502992BCEA0036A048 /* GeometryShapesApp.swift in Sources */,
 				83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */,
 				83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */,
+				833D7F9B2996AD7300F02A04 /* CoordinatesGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

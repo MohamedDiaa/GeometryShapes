@@ -22,6 +22,8 @@
 		833D7FA72996BA5D00F02A04 /* A-alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D7FA62996BA5D00F02A04 /* A-alphabet.swift */; };
 		83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF0DEE299403A700F595B1 /* Sulphur.swift */; };
 		83EFA7D7299A8B9F00D52B10 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFA7D6299A8B9F00D52B10 /* Sun.swift */; };
+		83EFA7DA299A8CFC00D52B10 /* alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83EFA7D9299A8CFC00D52B10 /* alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg */; };
+		83EFA7DC299A8D3500D52B10 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFA7DB299A8D3500D52B10 /* Moon.swift */; };
 		83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A822992BE3200241B11 /* IslamicStar.swift */; };
 		83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A852992C10600241B11 /* InfinitySymbol.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		833D7FA62996BA5D00F02A04 /* A-alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-alphabet.swift"; sourceTree = "<group>"; };
 		83AF0DEE299403A700F595B1 /* Sulphur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sulphur.swift; sourceTree = "<group>"; };
 		83EFA7D6299A8B9F00D52B10 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
+		83EFA7D9299A8CFC00D52B10 /* alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg"; sourceTree = "<group>"; };
+		83EFA7DB299A8D3500D52B10 /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
 		83F53A822992BE3200241B11 /* IslamicStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicStar.swift; sourceTree = "<group>"; };
 		83F53A852992C10600241B11 /* InfinitySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitySymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,6 +123,7 @@
 				83AF0DED2994038E00F595B1 /* Alchemy */,
 				831A814F2992BCEA0036A048 /* GeometryShapesApp.swift */,
 				831A81512992BCEA0036A048 /* ContentView.swift */,
+				83EFA7D8299A8CEC00D52B10 /* Resources */,
 				831A81532992BCEB0036A048 /* Assets.xcassets */,
 				831A81552992BCEB0036A048 /* Preview Content */,
 				83F53A822992BE3200241B11 /* IslamicStar.swift */,
@@ -174,8 +179,17 @@
 			children = (
 				83AF0DEE299403A700F595B1 /* Sulphur.swift */,
 				83EFA7D6299A8B9F00D52B10 /* Sun.swift */,
+				83EFA7DB299A8D3500D52B10 /* Moon.swift */,
 			);
 			path = Alchemy;
+			sourceTree = "<group>";
+		};
+		83EFA7D8299A8CEC00D52B10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83EFA7D9299A8CFC00D52B10 /* alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,6 +306,7 @@
 			files = (
 				831A81572992BCEB0036A048 /* Preview Assets.xcassets in Resources */,
 				831A81542992BCEB0036A048 /* Assets.xcassets in Resources */,
+				83EFA7DA299A8CFC00D52B10 /* alchemy-symbols-in-yellow-on-a-green-background-alchemy-symbol-set-symbols-of-nature.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83EFA7DC299A8D3500D52B10 /* Moon.swift in Sources */,
 				831A81522992BCEA0036A048 /* ContentView.swift in Sources */,
 				833D7F9D2996B12E00F02A04 /* SineWave.swift in Sources */,
 				833D7FA72996BA5D00F02A04 /* A-alphabet.swift in Sources */,

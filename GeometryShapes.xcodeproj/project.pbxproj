@@ -21,6 +21,7 @@
 		833D7FA42996B16E00F02A04 /* RealModule in Frameworks */ = {isa = PBXBuildFile; productRef = 833D7FA32996B16E00F02A04 /* RealModule */; };
 		833D7FA72996BA5D00F02A04 /* A-alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D7FA62996BA5D00F02A04 /* A-alphabet.swift */; };
 		83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF0DEE299403A700F595B1 /* Sulphur.swift */; };
+		83EFA7D7299A8B9F00D52B10 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83EFA7D6299A8B9F00D52B10 /* Sun.swift */; };
 		83F53A832992BE3200241B11 /* IslamicStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A822992BE3200241B11 /* IslamicStar.swift */; };
 		83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F53A852992C10600241B11 /* InfinitySymbol.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		833D7F9C2996B12E00F02A04 /* SineWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWave.swift; sourceTree = "<group>"; };
 		833D7FA62996BA5D00F02A04 /* A-alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A-alphabet.swift"; sourceTree = "<group>"; };
 		83AF0DEE299403A700F595B1 /* Sulphur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sulphur.swift; sourceTree = "<group>"; };
+		83EFA7D6299A8B9F00D52B10 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
 		83F53A822992BE3200241B11 /* IslamicStar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslamicStar.swift; sourceTree = "<group>"; };
 		83F53A852992C10600241B11 /* InfinitySymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfinitySymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				83AF0DEE299403A700F595B1 /* Sulphur.swift */,
+				83EFA7D6299A8B9F00D52B10 /* Sun.swift */,
 			);
 			path = Alchemy;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				83F53A862992C10600241B11 /* InfinitySymbol.swift in Sources */,
 				83AF0DEF299403A700F595B1 /* Sulphur.swift in Sources */,
 				833D7F9B2996AD7300F02A04 /* CoordinatesGrid.swift in Sources */,
+				83EFA7D7299A8B9F00D52B10 /* Sun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
